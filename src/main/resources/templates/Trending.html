@@ -9,11 +9,12 @@
      <link rel="stylesheet" href="style.css" th:href="@{/css/style.css}">
 </head>
 
-<body>
-     <div th:replace="~{Navbar :: navbar }">
-     </div>
-
-     
+<body class="bg-gray-700">
+          <!-- This is navbar used from fragment of Navbar.html file  -->
+          <nav th:replace="~{Fragments/Navbar :: navbar }">
+          </nav>
+          <!-- This is main div where all the news cards will be displayed -->
+          <main th:replace="~{Fragments/NewsCards :: newsCard}"></main>
 </body>
 
 </html>
