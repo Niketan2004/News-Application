@@ -88,6 +88,18 @@ Once started, open your browser and visit:
 ```
 http://localhost:8080
 ```
+---
+
+### Images
+
+# Home page 
+![Image](https://github.com/user-attachments/assets/112effa9-51f6-47a4-a8c8-3ea05e492b93)
+
+# Category
+![Image](https://github.com/user-attachments/assets/6bc84fe7-e37a-4a62-baa9-96c42df23676)
+
+# Trending
+![Image](https://github.com/user-attachments/assets/cdbd3766-71b0-4800-859a-7a8ec0e07a82)
 
 ---
 
