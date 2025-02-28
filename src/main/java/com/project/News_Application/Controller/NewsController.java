@@ -37,7 +37,7 @@ public class NewsController {
           return "Category";
      }
 
-     // display categories page
+     // display news of specific category
      @GetMapping("/category/{category}")
      public String showCategoryNews(@PathVariable String category, Model model) {
           // Because to get Crypto news it requires to pay the website ..so it is not used
